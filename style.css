@@ -1,0 +1,153 @@
+
+
+/* ======= ESTILOS GENERALES ======= */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0c2a; /* azul oscuro */
+  color: #fff;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*paira alinearlo */
+
+.barra-superior {
+    background-color: #f5f5f5; /* color de fondo */
+    padding: 15px 30px;
+  }
+  
+  .barra-superior nav {
+    display: flex;
+    justify-content: space-between; /* logo a la izq, links a la der */
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* espacio entre links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #0077ff; /* cambia de color al pasar el mouse */
+  }
+  
+
+/* ======= HEADER ======= */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.barra-superior {
+  width: 80%;
+  height: 15px;
+  background-color: #fff0f0; /* rosa claro */
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+}
+
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  object-fit: cover;
+  border: 4px solid #fff0f0;
+}
+
+.nombre {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 18px;
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+/* ======= SECCIÓN PROYECTOS ======= */
+.proyectos {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.proyectos h2 {
+  margin-bottom: 30px;
+  color: #fff0f0;
+}
+
+.grid-proyectos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.proyecto {
+  background-color: #ccc;
+  color: #000;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.proyecto:hover {
+  transform: translateY(-5px);
+  background-color: #fff0f0;
+  color: #0b0c2a;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #0b0c2a;
+  margin-top: 40px;
+}
+
+.barra-footer {
+  width: 80%;
+  height: 20px;
+  background-color: #ccc;
+  margin: 0 auto 20px auto;
+  border-radius: 5px;
+}
+
+.redes a {
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.redes a:hover {
+  color: #fff0f0;
+}
