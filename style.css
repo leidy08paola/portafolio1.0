@@ -16,6 +16,7 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+
 }
 
 
@@ -29,7 +30,7 @@ a {
   .barra-superior nav {
     display: flex;
     justify-content: space-between; /* logo a la izq, links a la der */
-    align-items: center;
+    align-items: center; 
   }
   
   .logo {
