@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Portafolio - Leidy Paola</title>
- 
 </head>
 <body>
   <!-- HEADER -->
   <header class="barra-superior">
     <nav>
-        <ul class="nav-links">
+      <ul class="nav-links">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
@@ -20,106 +19,106 @@
     </nav>
   </header>
 
-  <section class="section-presentacion">
-    <div class="conte-fotoperfil">
+  <!-- PRESENTACIÓN -->
+  <section id="inicio" class="section-presentacion">
     <img src="img/foto -perfil.jpg" alt="Foto de perfil" class="perfil">
-    <h1 class="nombre">Leidy Paola Portela</h1>
-  </div>
-    <div class="cont-habilidades">
-    <p class="descripcion">
-      Desarrolladora junior con experiencia en HTML, CSS, JavaScript y React. Actualmente continúo aprendiendo y reforzando mis conocimientos en desarrollo web, 
-      con el objetivo seguir aprendiendo y reforzando mis conocimientos para crecer profesionalmente en el área de desarrollo..
-    </p>
+    <div class="presentacion-texto">
+      <h1 class="nombre">Leidy Paola Portela</h1>
+      <p class="descripcion">
+        Desarrolladora junior con experiencia en HTML, CSS, JavaScript y React. Actualmente continúo aprendiendo y reforzando mis conocimientos en desarrollo web, 
+        con el objetivo de crecer profesionalmente en el área de desarrollo.
+      </p>
 
-    <div class="cta">
-<a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
-<a class="btn btn-ghost" href="#contacto">Contactar</a>
-<a class="btn btn-ghost" href="#" download>Descargar CV</a>
-</div>
- <strong>Disponible para oportunidades</strong>
-<div style="color:var(--muted); font-size:14px;">Remoto o Medellín / Colombia</div>
-
-  </div>
- </section>
- 
-
-  <!-- PROYECTOS -->
-  <article class="proyectos">
-    <div class="cont-habilidades">
-      <h2  class="h2-habilidades"> HABILIDADES</h2>
-      <h3 style="margin:0 0 8px">Lo que estoy practicando</h3>
-<p style="margin:0 0 12px; color:var(--muted)">Componentes en React, estado (useState) y consumo de APIs. Mejores prácticas con Git y documentación en README.</p>
-<div class="stack">
-    <div class="cont-logosHabilidades">
-      <img src="img/icons8-html-5-50.png" alt="">
-      <img src="img/icons8-python-50.png" alt="">
-      <img src="img/icons8-reaccionar-nativo-50.png" alt="">
-      <img src="img/icons8-javascript-48.png" alt="">
-    </div>
-      
-   </div>
-
-
-
-<section id="sec-sobremi">
-<h2 class="section-title">Sobre mí</h2>
-<div class="about">
-<div class="card">
-<p>
-Soy desarrolladora junior en formación. Actualmente trabajo en proyectos personales para aplicar y consolidar mis conocimientos en desarrollo web. Mi objetivo es obtener experiencia laboral en tecnología y continuar mi formación en Ingeniería de Sistemas.
-</p>
-<p style="color:var(--muted)">
-Me interesan los proyectos con retos reales, donde pueda aprender, colaborar en equipo y entregar valor con código claro y mantenible.
-</p>
-</div>
-<div class="card-lista">
-<h3 >Datos rápidos</h3>
-<ul style="margin:0; padding-left:18px">
-<li>Disponibilidad para aprender y documentar procesos.</li>
-<li>Organización y constancia en el trabajo diario.</li>
-<li>Interés en buenas prácticas de UI/UX y responsive design.</li>
-</ul>
-</div>
-</div>
-</section>
-
-
-<section class="sec-proyectos">
-
-
-   <div class="cont-proyectos">
-    <h2 class="h2-misProyectos">Mis Proyectos</h2>
-    <div class="grid-proyectos">
-      <div class="proyecto">
-        <h3>Proyecto 1</h3>
-        <p>Landing page para un negocio local con HTML y CSS.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" href="#contacto">Contactar</a>
+        <a class="btn btn-ghost" href="cv/Leidy_Paola_CV.pdf" download>Descargar CV</a>
       </div>
-      <div class="proyecto">
-        <h3>Proyecto 2</h3>
-        <p>Aplicación To-Do List con React y LocalStorage.</p>
-      </div>
-      <div class="proyecto">
-        <h3>Proyecto 3</h3>
-        <p>Sitio web de bisutería con WordPress y WooCommerce.</p>
-      </div>
-      <div class="proyecto">
-        <h3>Proyecto 4</h3>
-        <p>Software de gestión de citas con enfoque en UX/UI.</p>
-      </div>
-    </div>
+      <strong>Disponible para oportunidades</strong>
+      <div style="color:var(--muted); font-size:14px;">Remoto o Medellín / Colombia</div>
     </div>
   </section>
 
+  <!-- HABILIDADES -->
+  <section id="sobre-mi" class="sec-sobremi">
+    <article class="proyectos">
+      <div class="cont-habilidades">
+        <h2 class="h2-habilidades"> HABILIDADES</h2>
+        <h3>Lo que estoy practicando</h3>
+        <p style="color:var(--muted)">
+          Componentes en React, estado (useState) y consumo de APIs. Mejores prácticas con Git y documentación en README.
+        </p>
+        <div class="cont-logosHabilidades">
+          <img src="img/icons8-html-5-50.png" alt="HTML">
+          <img src="img/icons8-python-50.png" alt="Python">
+          <img src="img/icons8-reaccionar-nativo-50.png" alt="React">
+          <img src="img/icons8-javascript-48.png" alt="JavaScript">
+        </div>
+      </div>
+
+      <section id="sec-sobremi">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about">
+          <div class="card">
+            <p>
+              Soy desarrolladora junior en formación. Actualmente trabajo en proyectos personales para aplicar y consolidar mis conocimientos en desarrollo web. Mi objetivo es obtener experiencia laboral en tecnología y continuar mi formación en Ingeniería de Sistemas.
+            </p>
+            <p style="color:var(--muted)">
+              Me interesan los proyectos con retos reales, donde pueda aprender, colaborar en equipo y entregar valor con código claro y mantenible.
+            </p>
+          </div>
+          <div class="card-lista">
+            <h3>Datos rápidos</h3>
+            <ul>
+              <li>Disponibilidad para aprender y documentar procesos.</li>
+              <li>Organización y constancia en el trabajo diario.</li>
+              <li>Interés en buenas prácticas de UI/UX y responsive design.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </article>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="sec-proyectos">
+    <div class="cont-proyectos">
+      <h2 class="h2-misProyectos">Mis Proyectos</h2>
+      <div class="grid-proyectos">
+  <a href="proyecto1.html" class="proyecto" target="_blank">
+    <h3>Proyecto 1</h3>
+    <p>Landing page para un negocio local con HTML y CSS.</p>
+  </a>
+
+  <a href="https://leidy08paola.github.io/creador_de_tareas/" class="proyecto" target="_blank">
+    <h3>Proyecto 2</h3>
+    <p>Aplicación To-Do List con React y LocalStorage.</p>
+  </a>
+
+  <a href="proyecto3.html" class="proyecto" target="_blank">
+    <h3>Proyecto 3</h3>
+    <p>Sitio web de bisutería con WordPress y WooCommerce.</p>
+  </a>
+
+  <a href="proyecto4.html" class="proyecto" target="_blank">
+    <h3>Proyecto 4</h3>
+    <p>Software de gestión de citas con enfoque en UX/UI.</p>
+  </a>
+</div>
+
+  </section>
+
   <!-- FOOTER -->
-  <footer>
-    <div class="barra-footer"></div>
-    <p>© 2025 Leidy Paola Portela | Todos los derechos reservados</p>
-    <div class="redes">
-      <a href="#">LinkedIn</a> |
-      <a href="#">GitHub</a> |
-      <a href="#">Instagram</a>
-    </div>
-  </footer>
+  <section id="contacto">
+    <footer>
+      <div class="barra-footer"></div>
+      <p>© 2025 Leidy Paola Portela | Todos los derechos reservados</p>
+      <div class="redes">
+        <a href="#">LinkedIn</a> |
+        <a href="https://github.com/leidy08paola">GitHub</a> |
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
+  </section>
 </body>
 </html>
-
