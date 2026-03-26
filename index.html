@@ -1,58 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portafolio - Leidy Paola</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Document</title>
 </head>
+
 <body>
-  <!-- HEADER -->
-  <header class="barra-superior">
-    <nav>
-      <ul class="nav-links">
-<li><a href="index.html">Inicio</a></li>
-<li><a href="sobre-mi.html">Sobre mí</a></li>
-<li><a href="proyectos.html">Proyectos</a></li>
-<li><a href="contacto.html">Contacto</a></li>
+    <header class="header">
+        <section class="header_logo">
+            <img class="header_logo_icon" src="./src/assets/images/icono.png" alt="console"/>
+            <h4 class="header_logo_titulo">DevPortfolio</h4>
+        </section>
+        <nav class="header_nav">
+            <a class="header_nav_item" href="./index.html">Home</a>
+            <a class="header_nav_item" href="./src/views/services.html">Services</a>
+            <a class="header_nav_item" href="./src/views/projects.html">Projects</a>
+            <a class="header_nav_item" href="./src/views/contact.html">Contact</a>
+            <a class="header_nav_item--active" href="">Let´s Talk</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__content">
+            <h4>Available for new projects</h4>
+            <h1>Building Digital <span>Solutions</span> with Precision</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero minus consequuntur saepe impedit tempore dignissimos quo magnam ducimus et natus similique, porro fugiat esse totam doloremque nostrum aperiam unde! Repellendus?</p>
+            <div>
+                <button>View My Work</button>
+                <button>My Expertise</button>
+            </div>
+        </section>
+        <img class="main__logo" src="./src/assets/images/projectFive.jpg" alt="Main Icon">
+        <div>
+            <img src="./src/assets/images/llaves.png" alt="">
+            <p>clean code . scalable Desing</p>
+        </div>
+    </main>
+    <section class="copabilities">
+        <h4>Capabilities</h4>
+        <h2>Core Expertise</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis repellat maiores necessitatibus ratione laboriosam debitis incidunt atque consequatur temporibus molestiae minus placeat mollitia adipisci at unde, sint aperiam iusto!</p>
+        <section>
+            <article>
+                <img src="" alt="">
+                <h3>Frontend Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis cum facilis obcaecati necessitatibus placeat, nisi doloribus quo consectetur sunt voluptates praesentium amet voluptatibus aliquam magnam, hic id qui consequuntur.</p>
+                <div></div>
+                <section>
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Next.js</span>
+                </section>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Backend Systems</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis cum facilis obcaecati necessitatibus placeat, nisi doloribus quo consectetur sunt voluptates praesentium amet voluptatibus aliquam magnam, hic id qui consequuntur.</p>
+                <div></div>
+                <section>
+                    <span>Node.js</span>
+                    <span>PostgreSQL</span>
+                    <span>GraphQL</span>
+                </section>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Cloud Arhitecture</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis cum facilis obcaecati necessitatibus placeat, nisi doloribus quo consectetur sunt voluptates praesentium amet voluptatibus aliquam magnam, hic id qui consequuntur.</p>
+                <div></div>
+                <section>
+                    <span>AWS</span>
+                    <span>Docker</span>
+                    <span>Terraform</span>
+                </section>
+            </article>
+        </section>
+    </section>
+    <section class="portafolio">
+        <h4>Portfolio</h4>
+        <h3>Featured Projects</h3>
+        <a>View all projects</a>
+        <section>
+            <article>
+                <img src="" alt="Logo">
+                <section>
+                    <span>FINTECH</span>
+                    <span>2023</span>
+                    <h3>Quantum Analytis Engine</h3>
+                    <p>lorem lorem lorem lorem lorem</p>
+                </section>
+            </article>
+            <article>
+                <img src="" alt="Logo">
+                <section>
+                    <span>FINTECH</span>
+                    <span>2023</span>
+                    <h3>Quantum Analytis Engine</h3>
+                    <p>lorem lorem lorem lorem lorem</p>
+                </section>
+            </article>
+        </section>
+    </section>
+ <section class="descargas">
 
-      </ul>
-    </nav>
-  </header>
+    <div class="descargas_container">
+        <h3>Ready to transform your</h3>
+        <h3>vision into a digital reality?</h3>
 
-  <!-- PRESENTACIÓN -->
-  <section id="inicio" class="section-presentacion">
-    <img src="img/foto -perfil.jpg" alt="Foto de perfil" class="perfil">
-    <div class="presentacion-texto">
-      <h1 class="nombre">Leidy Paola Portela</h1>
-      <p class="descripcion">
-        Desarrolladora junior con experiencia en HTML, CSS, JavaScript y React. Actualmente continúo aprendiendo y reforzando mis conocimientos en desarrollo web, 
-        con el objetivo de crecer profesionalmente en el área de desarrollo.
-      </p>
+        <p>
+            I'm currently accepting new projects and collaborations. 
+            Let's build something extraordinary together.
+        </p>
 
-      <div class="cta">
-        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
-        <a class="btn btn-ghost" href="#contacto">Contactar</a>
-        <a class="btn btn-ghost" href="cv/Leidy_Paola_CV.pdf" download>Descargar CV</a>
-      </div>
-      <strong>Disponible para oportunidades</strong>
-      <div style="color:var(--muted); font-size:14px;">Remoto o Medellín / Colombia</div>
+        <div class="descargas_buttons">
+            <button class="btn_primary">Download CV</button>
+            <button class="btn_secondary">Start Project</button>
+        </div>
     </div>
-  </section>
 
-  
- 
-  <!-- FOOTER -->
-  <section id="contacto">
-    <footer>
-      <div class="barra-footer"></div>
-      <p>© 2025 Leidy Paola Portela | Todos los derechos reservados</p>
-      <div class="redes">
-        <a href="#">LinkedIn</a> |
-        <a href="https://github.com/leidy08paola">GitHub</a> |
-        <a href="#">Instagram</a>
-      </div>
-    </footer>
-  </section>
+</section>
+
+<footer class="footer">
+
+    <div class="footer_container">
+
+        <!-- LOGO -->
+        <div class="footer_logo">
+            <img src="./src/assets/images/icono.png" alt="logo">
+            <h2>DevPortfolio</h2>
+        </div>
+
+        <!-- TEXTO -->
+        <p class="footer_text">
+            Building digital solutions with precision and passion.
+        </p>
+
+        <!-- REDES -->
+        <div class="footer_social">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+
+    </div>
+
+</footer>
+
 </body>
+
 </html>
