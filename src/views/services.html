@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>sobre-mi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
+  <header class="header">
+        <section class="header_logo">
+            <img class="header_logo_icon" src="./src/assets/images/icono.png" alt="console"/>
+            <h4 class="header_logo_titulo">DevPortfolio</h4>
+        </section>
+        <nav class="header_nav">
+            <a class="header_nav_item" href="./index.html">Home</a>
+            <a class="header_nav_item" href="./src/views/services.html">Services</a>
+            <a class="header_nav_item" href="./src/views/projects.html">Projects</a>
+            <a class="header_nav_item" href="./src/views/contact.html">Contact</a>
+            <a class="header_nav_item--active" href="">Let´s Talk</a>
+        </nav>
+    </header>
+ <main>
+   <section class="services-intro">
 
-     <!-- HEADER -->
-  <header class="barra-superior">
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-<li><a href="sobre-mi.html">Sobre mí</a></li>
-<li><a href="proyectos.html">Proyectos</a></li>
-<li><a href="contacto.html">Contacto</a></li>
+    <h1>Our <span>Services</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi </p>
+    </section>
 
-      </ul>
-    </nav>
-  </header>
-
-    <!-- HABILIDADES -->
-  <section id="sobre-mi" class="sec-sobremi">
-    <article class="proyectos">
-      <div class="cont-habilidades">
-        <h2 class="h2-habilidades"> HABILIDADES</h2>
-        <h3>Lo que estoy practicando</h3>
-        <p style="color:var(--muted)">
-          Componentes en React, estado (useState) y consumo de APIs. Mejores prácticas con Git y documentación en README.
-        </p>
-        <div class="cont-logosHabilidades">
-          <img src="img/icons8-html-5-50.png" alt="HTML">
-          <img src="img/icons8-python-50.png" alt="Python">
-          <img src="img/icons8-reaccionar-nativo-50.png" alt="React">
-          <img src="img/icons8-javascript-48.png" alt="JavaScript">
-        </div>
+    <section class="services-list">
+      <div class=" container-grid">
+      <article>
+        <figure></figure>
+        <h2> web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <a href="#">Learn More</a>
+      </article>
+      <article>
+        <figure></figure>
+        <h2> Mobilie Apss</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <a href="#">Learn More</a>
+      </article>
+      <article>
+        <figure></figure>
+        <h2> Cloud Architecture</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <a href="#">Learn More</a>
+      </article>
+      <article>
+        <figure></figure>
+        <h2>Consulkting</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <a href="#">Learn More</a>
+      </article>
       </div>
+    </section>
 
-      <section id="sec-sobremi">
-        <h2 class="section-title">Sobre mí</h2>
-        <div class="about">
-          <div class="card">
-            <p>
-              Soy desarrolladora junior en formación. Actualmente trabajo en proyectos personales para aplicar y consolidar mis conocimientos en desarrollo web. Mi objetivo es obtener experiencia laboral en tecnología y continuar mi formación en Ingeniería de Sistemas.
-            </p>
-            <p style="color:var(--muted)">
-              Me interesan los proyectos con retos reales, donde pueda aprender, colaborar en equipo y entregar valor con código claro y mantenible.
-            </p>
-          </div>
-          <div class="card-lista">
-            <h3>Datos rápidos</h3>
-            <ul>
-              <li>Disponibilidad para aprender y documentar procesos.</li>
-              <li>Organización y constancia en el trabajo diario.</li>
-              <li>Interés en buenas prácticas de UI/UX y responsive design.</li>
-            </ul>
-          </div>
+    <section class="contact-cta">
+      <h2>Have a project in mind</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <button> Get in Touch</button>
+      <button>View Portafolio</button>
+    </section>
+ </main>
+
+ <footer class="footer">
+
+  <div class="footer_container">
+
+        <!-- LOGO -->
+        <div class="footer_logo">
+            <img src="./src/assets/images/icono.png" alt="logo">
+            <h2>DevPortfolio</h2>
         </div>
-      </section>
-    </article>
-  </section>
 
+        <!-- TEXTO -->
+        <p class="footer_text">
+            Building digital solutions with precision and passion.
+        </p>
+
+        <!-- REDES -->
+        <div class="footer_social">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+
+    </div>
+
+</footer>
+
+  
 </body>
 </html>
